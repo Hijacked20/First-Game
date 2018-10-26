@@ -5,7 +5,7 @@ public class player_move : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        Rigidbody.AddForce(0, 200, 500);
+        Rigidbody.AddForce(0, 200, 200);
     }
 	// Update is called once per frame
 	void Update () {
